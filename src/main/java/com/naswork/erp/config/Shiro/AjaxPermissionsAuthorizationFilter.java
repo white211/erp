@@ -21,7 +21,7 @@ public class AjaxPermissionsAuthorizationFilter extends FormAuthenticationFilter
 
     @Override
     protected boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
-        Result result = new Result(ResultCode.ERROR.getCode(),ResultCode.ERROR.getDesc());
+        Result result = new Result(ResultCode.ERROR.getCode(),"Please log in first.");
         PrintWriter out = null;
         HttpServletResponse res = (HttpServletResponse) response;
         try {

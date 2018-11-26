@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * @Program: CommonException
- * @Description:
+ * @Description: 自定义异常
  * @Author: White
  * @DateTime: 2018-11-25 22:42:00
  **/
@@ -19,5 +19,7 @@ public class CommonException extends RuntimeException{
         this.result = result;
     }
 
-
 }
+
+
+

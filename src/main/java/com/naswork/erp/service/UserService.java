@@ -39,6 +39,8 @@ public interface UserService extends IService<User> {
 
     Result getInfo();
 
+    Result logout();
+
 }
 
 

@@ -3,6 +3,7 @@ package com.naswork.erp.controller;
 
 import com.naswork.erp.common.Result;
 import com.naswork.erp.service.UserService;
+import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,16 +34,19 @@ public class UserController {
         return userService.getUserById(userId);
     }
 
+    @RequiresPermissions("user:list")
     @GetMapping("/getUserListPage")
     public Result getUserListPage(@PathParam("current") int current,@PathParam("size") int size){
         return userService.getUserListPage(current,size);
     }
 
+    @RequiresPermissions("user:list")
     @GetMapping("/getUserListPageBySearch")
     public Result getUserListPageBySearch(HttpServletRequest request){
         return userService.getUserListPageBySearch(request);
     }
 
+    @RequiresPermissions("user:update")
     @PostMapping("/updatePassword")
     public Result updatePassword(HttpServletRequest request){
         return userService.updatePassword(request);
@@ -55,11 +59,13 @@ public class UserController {
     }
 
     @DeleteMapping("/deleteUserById")
+    @RequiresPermissions("user:delete")
     public Result deleteUserById(HttpServletRequest request){
         return userService.deleteUserById(request);
     }
 
     @PostMapping("/insertByExcel")
+    @RequiresPermissions(value = "user:add",logical = Logical.OR)
     public Result insertByExcel(@RequestParam("file") MultipartFile file, HttpServletRequest request){
         return userService.insertByExcel(file,request);
     }
@@ -72,6 +78,11 @@ public class UserController {
     @PostMapping("/getInfo")
     public Result getInfo(){
         return userService.getInfo();
+    }
+
+    @PostMapping("/logout")
+    public Result logout(){
+        return userService.logout();
     }
 
 

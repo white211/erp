@@ -26,6 +26,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import java.io.InputStream;
 import java.util.List;
+import java.util.concurrent.CompletionException;
 
 /**
  * <p>
@@ -173,6 +174,19 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         userPermission.setPermissionList(permissionList);
         return userPermission;
     }
+
+    @Override
+    public Result logout() {
+        try{
+            Subject currentUser = SecurityUtils.getSubject();
+            currentUser.logout();
+        }catch (CompletionException e){
+            return Result.requestByError(e.getMessage());
+        }
+        return Result.requestBySuccess("logout success");
+    }
+
+
 
 }
 
