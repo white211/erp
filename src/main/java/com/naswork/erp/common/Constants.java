@@ -13,5 +13,6 @@ public class Constants {
     public static final String SESSION_USER_PERMISSION = "UserPermission";
 
     public static final String ERROR_PATH = "/error";
+    public static final long EXPIRE_TIME = 5*60*1000;
 
 }

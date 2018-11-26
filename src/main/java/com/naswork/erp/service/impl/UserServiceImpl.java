@@ -15,6 +15,7 @@ import com.naswork.erp.service.RoleService;
 import com.naswork.erp.service.UserService;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.naswork.erp.utils.ExcelListener;
+import com.naswork.erp.utils.jwt.JWTUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.session.Session;
@@ -112,7 +113,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     @Override
     public Result deleteUserById(HttpServletRequest request) {
-        int id = Integer.parseInt(request.getParameter("password"));
+        int id = Integer.parseInt(request.getParameter("id"));
         this.baseMapper.deleteById(id);
         return Result.requestBySuccess("delete success");
     }
@@ -143,24 +144,31 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     public Result login(HttpServletRequest request) {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        Subject currentUser = SecurityUtils.getSubject();
-        UsernamePasswordToken token = new UsernamePasswordToken(username,password);
         try{
-            currentUser.login(token);
-            return Result.requestBySuccess("success");
+            User user = new User();
+            user.setUserName(username);
+            User selectUser = this.baseMapper.selectOne(user);
+            if(!selectUser.getPassword().equals(password)){
+                return Result.requestByError("error password");
+            }else{
+                String token = JWTUtil.sign(username,password);
+                return Result.requestBySuccess("success",token);
+            }
         }catch (Exception e){
             return Result.requestByError("fail");
         }
     }
 
     @Override
-    public Result getInfo() {
-        Session session = SecurityUtils.getSubject().getSession();
-        User user = (User) session.getAttribute(Constants.SESSION_USER_INFO);
-        String username = user.getUserName();
-        String password = user.getPassword();
+    public Result getInfo(String username) {
+//        Session session = SecurityUtils.getSubject().getSession();
+//        User user = (User) session.getAttribute(Constants.SESSION_USER_INFO);
+//        String username = user.getUserName();
+//        String password = user.getPassword();
+//        String token = request.getHeader("Authorization");
+//        String username = JWTUtil.getUsername(token);
         UserPermission userPermission = getUserPermission(username);
-        session.setAttribute(Constants.SESSION_USER_PERMISSION,userPermission);
+//        session.setAttribute(Constants.SESSION_USER_PERMISSION,userPermission);
         return Result.requestBySuccess(userPermission);
     }
 
@@ -186,8 +194,13 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         return Result.requestBySuccess("logout success");
     }
 
-
-
+    @Override
+    public Result getUser(String username) {
+        User user = new User();
+        user.setUserName(username);
+        User selectOne =  this.baseMapper.selectOne(user);
+        return Result.requestBySuccess(selectOne);
+    }
 }
 
 

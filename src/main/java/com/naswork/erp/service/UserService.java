@@ -35,9 +35,11 @@ public interface UserService extends IService<User> {
 
     Result getUser(String username,String password);
 
+    Result getUser(String username);
+
     Result login(HttpServletRequest request);
 
-    Result getInfo();
+    Result getInfo(String username);
 
     Result logout();
 

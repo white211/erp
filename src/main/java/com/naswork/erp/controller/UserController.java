@@ -76,8 +76,8 @@ public class UserController {
     }
 
     @PostMapping("/getInfo")
-    public Result getInfo(){
-        return userService.getInfo();
+    public Result getInfo(String username){
+        return userService.getInfo(username);
     }
 
     @PostMapping("/logout")
