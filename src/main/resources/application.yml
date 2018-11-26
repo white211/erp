@@ -1,0 +1,50 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: erp
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/jmi?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat
+    tomcat:
+      max-active: 20
+      initial-size: 1
+      max-wait: 60000
+      min-idle: 1
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: select 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+
+mybatis-plus:
+    mapper-locations: classpath:/mybatis/mapper/*.xml
+    typeAliasesPackage: com.naswork.erp.entity
+#    typeEnumsPackage: com.naswork.erp.entity.enums
+    global-config:
+       id-type: 2
+       field-strategy: 2
+       db-column-underline: true
+       refresh-mapper: true
+#       capital-mode: true
+#       key-generator:
+       logic-delete-value: 0
+       logic-not-delete-value: 0
+       sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+       meta-object-handler:
+    configuration:
+       map-underscore-to-camel-case: true
+       cache-enabled: false
+
+logging:
+  config: classpath:logback.xml
+
+

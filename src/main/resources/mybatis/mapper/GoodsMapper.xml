@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.naswork.erp.mapper.GoodsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.naswork.erp.entity.Goods">
+        <id column="id" property="id" />
+        <result column="shop_id" property="shopId" />
+        <result column="create_time" property="createTime" />
+        <result column="price" property="price" />
+        <result column="description" property="description" />
+        <result column="goods_name" property="goodsName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, shop_id AS shopId, create_time AS createTime, price, description, goods_name AS goodsName
+    </sql>
+
+</mapper>
