@@ -69,8 +69,6 @@ public class MyRealm extends AuthorizingRealm {
         if (user == null) {
             throw new AuthenticationException("User didn't existed!");
         }
-        logger.info("打印token:"+token);
-        logger.info("打印用户信息："+user);
         if (! JWTUtil.verify(token, username, user.getPassword())) {
             throw new AuthenticationException("Username or password error");
         }
@@ -78,5 +76,5 @@ public class MyRealm extends AuthorizingRealm {
         return new SimpleAuthenticationInfo(token, token, "my_realm");
     }
 
-    }
+}
 

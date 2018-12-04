@@ -1,5 +1,10 @@
 package com.naswork.erp.config.Shiro;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.naswork.erp.common.Result;
+import com.naswork.erp.common.ResultCode;
+import org.apache.shiro.authz.UnauthorizedException;
 import org.apache.shiro.web.filter.authc.BasicHttpAuthenticationFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +16,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * @Program: JWTFilter
@@ -31,7 +37,6 @@ public class JWTFilter extends BasicHttpAuthenticationFilter {
     protected boolean isLoginAttempt(ServletRequest request, ServletResponse response) {
         HttpServletRequest req = (HttpServletRequest) request;
         String authorization = req.getHeader("Authorization");
-        logger.info("头部信息"+authorization);
         return authorization != null;
     }
 
@@ -60,12 +65,18 @@ public class JWTFilter extends BasicHttpAuthenticationFilter {
      */
     @Override
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
+        //判断是否携带有token 有token进入realm做进一步验证
         if (isLoginAttempt(request, response)) {
             try {
                 executeLogin(request, response);
             } catch (Exception e) {
-                response401(request, response);
+                redirectPath(request, response,"/500");
             }
+        }
+        //没有token则重定向到403
+        else{
+//            throw  new UnauthorizedException();
+            redirectPath(request,response,"/403");
         }
         return true;
     }
@@ -89,15 +100,42 @@ public class JWTFilter extends BasicHttpAuthenticationFilter {
     }
 
     /**
-     * 将非法请求跳转到 /401
+     * 将非法请求跳转到
      */
-    private void response401(ServletRequest req, ServletResponse resp) {
+    private void redirectPath(ServletRequest req, ServletResponse resp,String path) {
         try {
             HttpServletResponse httpServletResponse = (HttpServletResponse) resp;
-            httpServletResponse.sendRedirect("/401");
+            httpServletResponse.sendRedirect(path);
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
     }
 
+
+    private boolean handleNotToken(ServletRequest request, ServletResponse response){
+        Result result = new Result(ResultCode.FORBIDDEN.getCode(),ResultCode.FORBIDDEN.getDesc(),"you have not token,Please log in first.");
+        PrintWriter out = null;
+        HttpServletResponse res = (HttpServletResponse) response;
+        try {
+            res.setCharacterEncoding("UTF-8");
+            res.setContentType("application/json");
+            JSONObject jsonObject = JSON.parseObject(result.toString());
+            out = response.getWriter();
+            out.println(jsonObject);
+        } catch (Exception e) {
+        } finally {
+            if (null != out) {
+                out.flush();
+                out.close();
+            }
+        }
+        return false;
+    }
+
+
+
 }
+
+
+
+
