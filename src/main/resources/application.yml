@@ -24,7 +24,12 @@ spring:
       test-while-idle: true
       test-on-borrow: false
       test-on-return: false
-
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: admin
+#    password: admin
+#    publisher-confirms: true
 mybatis-plus:
     mapper-locations: classpath:/mybatis/mapper/*.xml
     typeAliasesPackage: com.naswork.erp.entity
