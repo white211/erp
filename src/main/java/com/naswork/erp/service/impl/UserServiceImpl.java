@@ -16,6 +16,7 @@ import com.naswork.erp.service.UserService;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.naswork.erp.utils.ExcelListener;
 import com.naswork.erp.utils.jwt.JWTUtil;
+import com.naswork.erp.utils.redis.JedisUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.session.Session;
@@ -48,6 +49,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     @Autowired
     private UserMapper userMapper;
+
+    @Autowired
+    private JedisUtil jedisUtil;
 
     @Override
     public Result getUserById(int userId) {
@@ -152,9 +156,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 return Result.requestByError("error password");
             }else{
                 String token = JWTUtil.sign(username,password);
+//                jedisUtil.STRINGS.set("token"+selectUser.getId(),token);
                 return Result.requestBySuccess("success",token);
             }
         }catch (Exception e){
+            e.printStackTrace();
             return Result.requestByError("fail");
         }
     }

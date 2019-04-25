@@ -1,0 +1,424 @@
+2019-04-22 16:45:52.608 [main] INFO  com.naswork.erp.ErpApplication - Starting ErpApplication on DESKTOP-DIC4SEB with PID 5564 (C:\nasswork\erp\target\classes started by white in C:\nasswork\erp)
+2019-04-22 16:45:52.629 [main] DEBUG com.naswork.erp.ErpApplication - Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-04-22 16:45:52.636 [main] INFO  com.naswork.erp.ErpApplication - The following profiles are active: dev
+2019-04-22 16:45:55.503 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-04-22 16:45:55.550 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-04-22 16:45:56.248 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-22 16:45:56.259 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-04-22 16:45:56.285 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Using auto-configuration base package 'com.naswork.erp'
+2019-04-22 16:45:56.352 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\GoodsMapper.class]
+2019-04-22 16:45:56.354 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\MenuMapper.class]
+2019-04-22 16:45:56.355 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\RoleMapper.class]
+2019-04-22 16:45:56.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\ShopMapper.class]
+2019-04-22 16:45:56.358 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\UserMapper.class]
+2019-04-22 16:45:56.396 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'goodsMapper' and 'com.naswork.erp.mapper.GoodsMapper' mapperInterface
+2019-04-22 16:45:56.451 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-04-22 16:45:56.475 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'menuMapper' and 'com.naswork.erp.mapper.MenuMapper' mapperInterface
+2019-04-22 16:45:56.483 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2019-04-22 16:45:56.553 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleMapper' and 'com.naswork.erp.mapper.RoleMapper' mapperInterface
+2019-04-22 16:45:56.583 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2019-04-22 16:45:56.627 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'shopMapper' and 'com.naswork.erp.mapper.ShopMapper' mapperInterface
+2019-04-22 16:45:56.775 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'shopMapper'.
+2019-04-22 16:45:56.777 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.naswork.erp.mapper.UserMapper' mapperInterface
+2019-04-22 16:45:56.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-04-22 16:45:59.839 [main] DEBUG com.baomidou.mybatisplus.toolkit.GlobalConfigUtils - DeBug: MyBatis Plus Global configuration Initializing !
+2019-04-22 16:45:59.865 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectList
+2019-04-22 16:45:59.868 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectObjs
+2019-04-22 16:45:59.871 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Insert
+2019-04-22 16:45:59.872 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Update
+2019-04-22 16:45:59.873 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Delete
+2019-04-22 16:45:59.874 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Count
+2019-04-22 16:45:59.878 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - Mybatis-plus init success.
+2019-04-22 16:46:00.305 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2019-04-22 16:46:00.323 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Goods matches criteria [is assignable to Object]
+2019-04-22 16:46:00.326 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Menu matches criteria [is assignable to Object]
+2019-04-22 16:46:00.328 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Role matches criteria [is assignable to Object]
+2019-04-22 16:46:00.330 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Shop matches criteria [is assignable to Object]
+2019-04-22 16:46:00.332 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.User matches criteria [is assignable to Object]
+2019-04-22 16:46:00.333 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Vo.UserPermission matches criteria [is assignable to Object]
+2019-04-22 16:46:00.336 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.naswork.erp.entity' for aliases
+2019-04-22 16:46:00.341 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@7a6e76b4'
+2019-04-22 16:46:00.343 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@53b2ecbf'
+2019-04-22 16:46:00.774 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-22 16:46:02.211 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteById
+2019-04-22 16:46:02.218 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteBatchIds
+2019-04-22 16:46:02.242 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.updateById
+2019-04-22 16:46:02.252 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.updateAllColumnById
+2019-04-22 16:46:02.255 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectById
+2019-04-22 16:46:02.263 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectBatchIds
+2019-04-22 16:46:02.269 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.insert
+2019-04-22 16:46:02.277 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.insertAllColumn
+2019-04-22 16:46:02.286 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.delete
+2019-04-22 16:46:02.296 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteByMap
+2019-04-22 16:46:02.312 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.update
+2019-04-22 16:46:02.323 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectByMap
+2019-04-22 16:46:02.329 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectOne
+2019-04-22 16:46:02.366 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectCount
+2019-04-22 16:46:02.385 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectList
+2019-04-22 16:46:02.399 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectPage
+2019-04-22 16:46:02.410 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectMaps
+2019-04-22 16:46:02.417 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectMapsPage
+2019-04-22 16:46:02.424 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectObjs
+2019-04-22 16:46:02.428 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\GoodsMapper.xml]'
+2019-04-22 16:46:02.462 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.getmenuListByUsername
+2019-04-22 16:46:02.469 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.getpermissionListByUsername
+2019-04-22 16:46:02.476 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteById
+2019-04-22 16:46:02.483 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteBatchIds
+2019-04-22 16:46:02.488 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.updateById
+2019-04-22 16:46:02.493 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.updateAllColumnById
+2019-04-22 16:46:02.494 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectById
+2019-04-22 16:46:02.498 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectBatchIds
+2019-04-22 16:46:02.509 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.insert
+2019-04-22 16:46:02.558 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.insertAllColumn
+2019-04-22 16:46:02.629 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.delete
+2019-04-22 16:46:02.707 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteByMap
+2019-04-22 16:46:02.746 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.update
+2019-04-22 16:46:02.761 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectByMap
+2019-04-22 16:46:02.767 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectOne
+2019-04-22 16:46:02.780 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectCount
+2019-04-22 16:46:02.833 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectList
+2019-04-22 16:46:02.890 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectPage
+2019-04-22 16:46:02.914 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectMaps
+2019-04-22 16:46:02.925 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectMapsPage
+2019-04-22 16:46:02.966 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectObjs
+2019-04-22 16:46:02.980 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\MenuMapper.xml]'
+2019-04-22 16:46:03.009 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteById
+2019-04-22 16:46:03.018 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteBatchIds
+2019-04-22 16:46:03.023 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.updateById
+2019-04-22 16:46:03.028 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.updateAllColumnById
+2019-04-22 16:46:03.030 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectById
+2019-04-22 16:46:03.035 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectBatchIds
+2019-04-22 16:46:03.044 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.insert
+2019-04-22 16:46:03.050 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.insertAllColumn
+2019-04-22 16:46:03.058 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.delete
+2019-04-22 16:46:03.061 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteByMap
+2019-04-22 16:46:03.065 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.update
+2019-04-22 16:46:03.070 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectByMap
+2019-04-22 16:46:03.075 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectOne
+2019-04-22 16:46:03.079 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectCount
+2019-04-22 16:46:03.083 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectList
+2019-04-22 16:46:03.089 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectPage
+2019-04-22 16:46:03.093 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectMaps
+2019-04-22 16:46:03.104 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectMapsPage
+2019-04-22 16:46:03.109 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectObjs
+2019-04-22 16:46:03.111 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\RoleMapper.xml]'
+2019-04-22 16:46:03.137 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteById
+2019-04-22 16:46:03.152 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteBatchIds
+2019-04-22 16:46:03.160 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.updateById
+2019-04-22 16:46:03.166 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.updateAllColumnById
+2019-04-22 16:46:03.170 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectById
+2019-04-22 16:46:03.197 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectBatchIds
+2019-04-22 16:46:03.216 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.insert
+2019-04-22 16:46:03.300 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.insertAllColumn
+2019-04-22 16:46:03.311 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.delete
+2019-04-22 16:46:03.329 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteByMap
+2019-04-22 16:46:03.341 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.update
+2019-04-22 16:46:03.363 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectByMap
+2019-04-22 16:46:03.369 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectOne
+2019-04-22 16:46:03.377 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectCount
+2019-04-22 16:46:03.385 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectList
+2019-04-22 16:46:03.407 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectPage
+2019-04-22 16:46:03.424 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectMaps
+2019-04-22 16:46:03.433 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectMapsPage
+2019-04-22 16:46:03.452 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectObjs
+2019-04-22 16:46:03.457 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\ShopMapper.xml]'
+2019-04-22 16:46:03.516 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectUserListByPage
+2019-04-22 16:46:03.519 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.getUserRoleByUsername
+2019-04-22 16:46:03.529 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteById
+2019-04-22 16:46:03.534 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteBatchIds
+2019-04-22 16:46:03.581 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.updateById
+2019-04-22 16:46:03.588 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.updateAllColumnById
+2019-04-22 16:46:03.592 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectById
+2019-04-22 16:46:03.601 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectBatchIds
+2019-04-22 16:46:03.619 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.insert
+2019-04-22 16:46:03.628 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.insertAllColumn
+2019-04-22 16:46:03.633 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.delete
+2019-04-22 16:46:03.639 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteByMap
+2019-04-22 16:46:03.645 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.update
+2019-04-22 16:46:03.701 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectByMap
+2019-04-22 16:46:03.719 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectOne
+2019-04-22 16:46:03.733 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectCount
+2019-04-22 16:46:03.763 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectList
+2019-04-22 16:46:03.783 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectPage
+2019-04-22 16:46:03.807 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectMaps
+2019-04-22 16:46:03.835 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectMapsPage
+2019-04-22 16:46:03.865 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectObjs
+2019-04-22 16:46:03.883 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\UserMapper.xml]'
+2019-04-22 16:46:07.886 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-22 16:46:07.915 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-22 16:46:07.916 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-04-22 16:46:07.963 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Software\Git\mingw64\bin;C:\Software\Git\usr\bin;C:\Users\white\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Software\nodejs;C:\Software\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\python\python2\Tools\Scripts;C:\Program Files\python\python2;C:\Users\white\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\white\AppData\Local\Programs\Python\Python37;C:\Users\white\AppData\Local\Microsoft\WindowsApps;C:\Users\white\AppData\Roaming\npm;C:\Software\Microsoft VS Code\bin;C:\Program Files (x86)\Fiddler;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;.]
+2019-04-22 16:46:08.276 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-22 16:46:10.679 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-04-22 16:46:13.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2019-04-22 16:46:13.408 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-22 16:46:13.463 [main] INFO  com.naswork.erp.ErpApplication - Started ErpApplication in 23.638 seconds (JVM running for 137.524)
+2019-04-22 16:46:13.469 [main] INFO  com.naswork.erp.ErpApplication - start success-------port:null
+2019-04-22 18:28:46.248 [AMQP Connection 127.0.0.1:5672] ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error
+2019-04-22 18:28:46.517 [AMQP Connection 127.0.0.1:5672] ERROR org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error
+2019-04-22 18:28:48.478 [simpleMessageListenerContainer_one-2] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:608)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:582)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:564)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.access$1600(CachingConnectionFactory.java:99)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:1287)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1843)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 13 common frames omitted
+2019-04-22 18:28:49.595 [SimpleAsyncTaskExecutor-2] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:28:55.846 [simpleMessageListenerContainer_one-2] WARN  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2019-04-22 18:28:56.925 [simpleMessageListenerContainer_one-3] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:28:57.012 [SimpleAsyncTaskExecutor-2] WARN  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2019-04-22 18:28:59.296 [SimpleAsyncTaskExecutor-3] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:29:03.264 [simpleMessageListenerContainer_one-3] WARN  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2019-04-22 18:29:04.452 [simpleMessageListenerContainer_one-4] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:29:05.415 [SimpleAsyncTaskExecutor-3] WARN  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2019-04-22 18:29:07.256 [SimpleAsyncTaskExecutor-4] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:29:11.126 [simpleMessageListenerContainer_one-4] WARN  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2019-04-22 18:29:12.424 [simpleMessageListenerContainer_one-5] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:29:13.791 [SimpleAsyncTaskExecutor-4] WARN  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2019-04-22 18:29:14.869 [SimpleAsyncTaskExecutor-5] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:29:18.739 [simpleMessageListenerContainer_one-5] WARN  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2019-04-22 18:29:19.409 [Thread-4] DEBUG org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager - Connection manager is shutting down
+2019-04-22 18:29:19.434 [Thread-4] DEBUG org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager - Connection manager shut down
+2019-04-22 18:29:19.927 [simpleMessageListenerContainer_one-6] ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:504)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:658)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1837)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1811)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1792)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1678)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2019-04-22 18:29:20.000 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,320 @@
+2019-04-24 15:40:50.256 [main] INFO  com.naswork.erp.ErpApplication - Starting ErpApplication on DESKTOP-DIC4SEB with PID 14332 (C:\nasswork\erp\target\classes started by white in C:\nasswork\erp)
+2019-04-24 15:40:50.265 [main] DEBUG com.naswork.erp.ErpApplication - Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-04-24 15:40:50.274 [main] INFO  com.naswork.erp.ErpApplication - The following profiles are active: dev
+2019-04-24 15:40:52.842 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-04-24 15:40:52.857 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-04-24 15:40:53.260 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 15:40:53.265 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-04-24 15:40:53.281 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Using auto-configuration base package 'com.naswork.erp'
+2019-04-24 15:40:53.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\GoodsMapper.class]
+2019-04-24 15:40:53.340 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\MenuMapper.class]
+2019-04-24 15:40:53.341 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\RoleMapper.class]
+2019-04-24 15:40:53.342 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\ShopMapper.class]
+2019-04-24 15:40:53.343 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\UserMapper.class]
+2019-04-24 15:40:53.374 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'goodsMapper' and 'com.naswork.erp.mapper.GoodsMapper' mapperInterface
+2019-04-24 15:40:53.376 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-04-24 15:40:53.376 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'menuMapper' and 'com.naswork.erp.mapper.MenuMapper' mapperInterface
+2019-04-24 15:40:53.377 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2019-04-24 15:40:53.378 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleMapper' and 'com.naswork.erp.mapper.RoleMapper' mapperInterface
+2019-04-24 15:40:53.380 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2019-04-24 15:40:53.381 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'shopMapper' and 'com.naswork.erp.mapper.ShopMapper' mapperInterface
+2019-04-24 15:40:53.382 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'shopMapper'.
+2019-04-24 15:40:53.383 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.naswork.erp.mapper.UserMapper' mapperInterface
+2019-04-24 15:40:53.389 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-04-24 15:40:54.693 [main] DEBUG com.baomidou.mybatisplus.toolkit.GlobalConfigUtils - DeBug: MyBatis Plus Global configuration Initializing !
+2019-04-24 15:40:54.714 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectList
+2019-04-24 15:40:54.715 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectObjs
+2019-04-24 15:40:54.717 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Insert
+2019-04-24 15:40:54.719 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Update
+2019-04-24 15:40:54.721 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Delete
+2019-04-24 15:40:54.722 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Count
+2019-04-24 15:40:54.724 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - Mybatis-plus init success.
+2019-04-24 15:40:55.774 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2019-04-24 15:40:55.778 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Goods matches criteria [is assignable to Object]
+2019-04-24 15:40:55.782 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Menu matches criteria [is assignable to Object]
+2019-04-24 15:40:55.788 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Role matches criteria [is assignable to Object]
+2019-04-24 15:40:55.791 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Shop matches criteria [is assignable to Object]
+2019-04-24 15:40:55.805 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.User matches criteria [is assignable to Object]
+2019-04-24 15:40:55.808 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Vo.UserPermission matches criteria [is assignable to Object]
+2019-04-24 15:40:55.811 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.naswork.erp.entity' for aliases
+2019-04-24 15:40:55.813 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@192ca5dc'
+2019-04-24 15:40:55.815 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@29708c86'
+2019-04-24 15:40:56.013 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 15:40:56.801 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteById
+2019-04-24 15:40:56.813 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteBatchIds
+2019-04-24 15:40:56.823 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.updateById
+2019-04-24 15:40:56.827 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.updateAllColumnById
+2019-04-24 15:40:56.829 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectById
+2019-04-24 15:40:56.834 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectBatchIds
+2019-04-24 15:40:56.842 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.insert
+2019-04-24 15:40:56.847 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.insertAllColumn
+2019-04-24 15:40:56.854 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.delete
+2019-04-24 15:40:56.859 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteByMap
+2019-04-24 15:40:56.866 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.update
+2019-04-24 15:40:56.872 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectByMap
+2019-04-24 15:40:56.877 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectOne
+2019-04-24 15:40:56.885 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectCount
+2019-04-24 15:40:56.893 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectList
+2019-04-24 15:40:56.900 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectPage
+2019-04-24 15:40:56.905 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectMaps
+2019-04-24 15:40:56.913 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectMapsPage
+2019-04-24 15:40:56.920 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectObjs
+2019-04-24 15:40:56.935 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\GoodsMapper.xml]'
+2019-04-24 15:40:56.974 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.getmenuListByUsername
+2019-04-24 15:40:56.976 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.getpermissionListByUsername
+2019-04-24 15:40:56.981 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteById
+2019-04-24 15:40:56.987 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteBatchIds
+2019-04-24 15:40:56.991 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.updateById
+2019-04-24 15:40:56.995 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.updateAllColumnById
+2019-04-24 15:40:56.997 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectById
+2019-04-24 15:40:57.002 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectBatchIds
+2019-04-24 15:40:57.020 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.insert
+2019-04-24 15:40:57.027 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.insertAllColumn
+2019-04-24 15:40:57.033 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.delete
+2019-04-24 15:40:57.041 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteByMap
+2019-04-24 15:40:57.046 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.update
+2019-04-24 15:40:57.052 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectByMap
+2019-04-24 15:40:57.058 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectOne
+2019-04-24 15:40:57.070 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectCount
+2019-04-24 15:40:57.079 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectList
+2019-04-24 15:40:57.086 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectPage
+2019-04-24 15:40:57.092 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectMaps
+2019-04-24 15:40:57.097 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectMapsPage
+2019-04-24 15:40:57.104 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectObjs
+2019-04-24 15:40:57.106 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\MenuMapper.xml]'
+2019-04-24 15:40:57.164 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteById
+2019-04-24 15:40:57.173 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteBatchIds
+2019-04-24 15:40:57.177 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.updateById
+2019-04-24 15:40:57.183 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.updateAllColumnById
+2019-04-24 15:40:57.187 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectById
+2019-04-24 15:40:57.192 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectBatchIds
+2019-04-24 15:40:57.197 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.insert
+2019-04-24 15:40:57.205 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.insertAllColumn
+2019-04-24 15:40:57.215 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.delete
+2019-04-24 15:40:57.227 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteByMap
+2019-04-24 15:40:57.238 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.update
+2019-04-24 15:40:57.250 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectByMap
+2019-04-24 15:40:57.255 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectOne
+2019-04-24 15:40:57.260 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectCount
+2019-04-24 15:40:57.264 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectList
+2019-04-24 15:40:57.271 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectPage
+2019-04-24 15:40:57.277 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectMaps
+2019-04-24 15:40:57.286 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectMapsPage
+2019-04-24 15:40:57.294 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectObjs
+2019-04-24 15:40:57.296 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\RoleMapper.xml]'
+2019-04-24 15:40:57.322 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteById
+2019-04-24 15:40:57.332 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteBatchIds
+2019-04-24 15:40:57.340 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.updateById
+2019-04-24 15:40:57.354 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.updateAllColumnById
+2019-04-24 15:40:57.356 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectById
+2019-04-24 15:40:57.360 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectBatchIds
+2019-04-24 15:40:57.368 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.insert
+2019-04-24 15:40:57.372 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.insertAllColumn
+2019-04-24 15:40:57.379 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.delete
+2019-04-24 15:40:57.385 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteByMap
+2019-04-24 15:40:57.390 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.update
+2019-04-24 15:40:57.400 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectByMap
+2019-04-24 15:40:57.413 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectOne
+2019-04-24 15:40:57.422 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectCount
+2019-04-24 15:40:57.430 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectList
+2019-04-24 15:40:57.452 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectPage
+2019-04-24 15:40:57.458 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectMaps
+2019-04-24 15:40:57.472 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectMapsPage
+2019-04-24 15:40:57.504 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectObjs
+2019-04-24 15:40:57.508 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\ShopMapper.xml]'
+2019-04-24 15:40:57.554 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectUserListByPage
+2019-04-24 15:40:57.564 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.getUserRoleByUsername
+2019-04-24 15:40:57.570 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteById
+2019-04-24 15:40:57.586 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteBatchIds
+2019-04-24 15:40:57.604 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.updateById
+2019-04-24 15:40:57.632 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.updateAllColumnById
+2019-04-24 15:40:57.634 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectById
+2019-04-24 15:40:57.641 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectBatchIds
+2019-04-24 15:40:57.656 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.insert
+2019-04-24 15:40:57.665 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.insertAllColumn
+2019-04-24 15:40:57.672 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.delete
+2019-04-24 15:40:57.682 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteByMap
+2019-04-24 15:40:57.690 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.update
+2019-04-24 15:40:57.696 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectByMap
+2019-04-24 15:40:57.702 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectOne
+2019-04-24 15:40:57.709 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectCount
+2019-04-24 15:40:57.718 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectList
+2019-04-24 15:40:57.722 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectPage
+2019-04-24 15:40:57.727 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectMaps
+2019-04-24 15:40:57.732 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectMapsPage
+2019-04-24 15:40:57.738 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectObjs
+2019-04-24 15:40:57.740 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\UserMapper.xml]'
+2019-04-24 15:40:59.847 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-24 15:40:59.870 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-24 15:40:59.882 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-04-24 15:40:59.920 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Software\Git\mingw64\bin;C:\Software\Git\usr\bin;C:\Users\white\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Software\nodejs;C:\Software\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\python\python2\Tools\Scripts;C:\Program Files\python\python2;C:\Users\white\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\white\AppData\Local\Programs\Python\Python37;C:\Users\white\AppData\Local\Microsoft\WindowsApps;C:\Users\white\AppData\Roaming\npm;C:\Software\Microsoft VS Code\bin;C:\Program Files (x86)\Fiddler;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;.]
+2019-04-24 15:41:00.235 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:41:02.882 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-04-24 15:41:05.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2019-04-24 15:41:05.176 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 15:41:05.306 [main] INFO  com.naswork.erp.ErpApplication - Started ErpApplication in 16.588 seconds (JVM running for 121.616)
+2019-04-24 15:41:05.314 [main] INFO  com.naswork.erp.ErpApplication - start success-------port:8082
+2019-04-24 15:41:14.837 [http-nio-8082-exec-10] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 15:42:48.200 [Thread-4] DEBUG org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager - Connection manager is shutting down
+2019-04-24 15:42:48.204 [Thread-4] DEBUG org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager - Connection manager shut down
+2019-04-24 15:42:48.236 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-04-24 15:43:44.943 [main] INFO  com.naswork.erp.ErpApplication - Starting ErpApplication on DESKTOP-DIC4SEB with PID 9448 (C:\nasswork\erp\target\classes started by white in C:\nasswork\erp)
+2019-04-24 15:43:44.950 [main] DEBUG com.naswork.erp.ErpApplication - Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-04-24 15:43:44.955 [main] INFO  com.naswork.erp.ErpApplication - The following profiles are active: dev
+2019-04-24 15:43:46.935 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-04-24 15:43:46.947 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-04-24 15:43:47.494 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-04-24 15:43:47.504 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-04-24 15:43:47.534 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Using auto-configuration base package 'com.naswork.erp'
+2019-04-24 15:43:47.644 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\GoodsMapper.class]
+2019-04-24 15:43:47.660 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\MenuMapper.class]
+2019-04-24 15:43:47.678 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\RoleMapper.class]
+2019-04-24 15:43:47.685 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\ShopMapper.class]
+2019-04-24 15:43:47.693 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\nasswork\erp\target\classes\com\naswork\erp\mapper\UserMapper.class]
+2019-04-24 15:43:47.809 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'goodsMapper' and 'com.naswork.erp.mapper.GoodsMapper' mapperInterface
+2019-04-24 15:43:47.817 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-04-24 15:43:47.821 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'menuMapper' and 'com.naswork.erp.mapper.MenuMapper' mapperInterface
+2019-04-24 15:43:47.825 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2019-04-24 15:43:47.828 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleMapper' and 'com.naswork.erp.mapper.RoleMapper' mapperInterface
+2019-04-24 15:43:47.831 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2019-04-24 15:43:47.843 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'shopMapper' and 'com.naswork.erp.mapper.ShopMapper' mapperInterface
+2019-04-24 15:43:47.845 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'shopMapper'.
+2019-04-24 15:43:47.846 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.naswork.erp.mapper.UserMapper' mapperInterface
+2019-04-24 15:43:47.848 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-04-24 15:43:49.043 [main] DEBUG com.baomidou.mybatisplus.toolkit.GlobalConfigUtils - DeBug: MyBatis Plus Global configuration Initializing !
+2019-04-24 15:43:49.057 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectList
+2019-04-24 15:43:49.057 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectObjs
+2019-04-24 15:43:49.059 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Insert
+2019-04-24 15:43:49.060 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Update
+2019-04-24 15:43:49.060 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Delete
+2019-04-24 15:43:49.061 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Count
+2019-04-24 15:43:49.062 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - Mybatis-plus init success.
+2019-04-24 15:43:49.301 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2019-04-24 15:43:49.307 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Goods matches criteria [is assignable to Object]
+2019-04-24 15:43:49.310 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Menu matches criteria [is assignable to Object]
+2019-04-24 15:43:49.312 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Role matches criteria [is assignable to Object]
+2019-04-24 15:43:49.324 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Shop matches criteria [is assignable to Object]
+2019-04-24 15:43:49.326 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.User matches criteria [is assignable to Object]
+2019-04-24 15:43:49.328 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Vo.UserPermission matches criteria [is assignable to Object]
+2019-04-24 15:43:49.330 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.naswork.erp.entity' for aliases
+2019-04-24 15:43:49.331 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@a73396c'
+2019-04-24 15:43:49.334 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@7b63f649'
+2019-04-24 15:43:49.495 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-24 15:43:50.799 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteById
+2019-04-24 15:43:50.812 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteBatchIds
+2019-04-24 15:43:50.828 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.updateById
+2019-04-24 15:43:50.833 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.updateAllColumnById
+2019-04-24 15:43:50.837 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectById
+2019-04-24 15:43:50.847 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectBatchIds
+2019-04-24 15:43:50.859 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.insert
+2019-04-24 15:43:50.873 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.insertAllColumn
+2019-04-24 15:43:50.891 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.delete
+2019-04-24 15:43:50.897 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.deleteByMap
+2019-04-24 15:43:50.903 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.update
+2019-04-24 15:43:50.908 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectByMap
+2019-04-24 15:43:50.913 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectOne
+2019-04-24 15:43:50.918 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectCount
+2019-04-24 15:43:50.926 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectList
+2019-04-24 15:43:50.930 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectPage
+2019-04-24 15:43:50.938 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectMaps
+2019-04-24 15:43:50.944 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectMapsPage
+2019-04-24 15:43:50.951 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.GoodsMapper.selectObjs
+2019-04-24 15:43:50.955 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\GoodsMapper.xml]'
+2019-04-24 15:43:50.987 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.getmenuListByUsername
+2019-04-24 15:43:50.991 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.getpermissionListByUsername
+2019-04-24 15:43:51.003 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteById
+2019-04-24 15:43:51.009 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteBatchIds
+2019-04-24 15:43:51.013 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.updateById
+2019-04-24 15:43:51.016 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.updateAllColumnById
+2019-04-24 15:43:51.019 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectById
+2019-04-24 15:43:51.023 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectBatchIds
+2019-04-24 15:43:51.028 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.insert
+2019-04-24 15:43:51.035 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.insertAllColumn
+2019-04-24 15:43:51.040 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.delete
+2019-04-24 15:43:51.046 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.deleteByMap
+2019-04-24 15:43:51.057 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.update
+2019-04-24 15:43:51.061 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectByMap
+2019-04-24 15:43:51.067 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectOne
+2019-04-24 15:43:51.072 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectCount
+2019-04-24 15:43:51.082 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectList
+2019-04-24 15:43:51.088 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectPage
+2019-04-24 15:43:51.093 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectMaps
+2019-04-24 15:43:51.099 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectMapsPage
+2019-04-24 15:43:51.104 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.MenuMapper.selectObjs
+2019-04-24 15:43:51.105 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\MenuMapper.xml]'
+2019-04-24 15:43:51.125 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteById
+2019-04-24 15:43:51.129 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteBatchIds
+2019-04-24 15:43:51.135 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.updateById
+2019-04-24 15:43:51.140 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.updateAllColumnById
+2019-04-24 15:43:51.141 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectById
+2019-04-24 15:43:51.145 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectBatchIds
+2019-04-24 15:43:51.155 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.insert
+2019-04-24 15:43:51.160 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.insertAllColumn
+2019-04-24 15:43:51.163 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.delete
+2019-04-24 15:43:51.167 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.deleteByMap
+2019-04-24 15:43:51.172 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.update
+2019-04-24 15:43:51.175 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectByMap
+2019-04-24 15:43:51.179 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectOne
+2019-04-24 15:43:51.185 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectCount
+2019-04-24 15:43:51.192 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectList
+2019-04-24 15:43:51.197 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectPage
+2019-04-24 15:43:51.203 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectMaps
+2019-04-24 15:43:51.208 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectMapsPage
+2019-04-24 15:43:51.213 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.RoleMapper.selectObjs
+2019-04-24 15:43:51.216 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\RoleMapper.xml]'
+2019-04-24 15:43:51.241 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteById
+2019-04-24 15:43:51.245 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteBatchIds
+2019-04-24 15:43:51.250 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.updateById
+2019-04-24 15:43:51.254 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.updateAllColumnById
+2019-04-24 15:43:51.257 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectById
+2019-04-24 15:43:51.260 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectBatchIds
+2019-04-24 15:43:51.265 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.insert
+2019-04-24 15:43:51.270 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.insertAllColumn
+2019-04-24 15:43:51.289 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.delete
+2019-04-24 15:43:51.295 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.deleteByMap
+2019-04-24 15:43:51.304 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.update
+2019-04-24 15:43:51.329 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectByMap
+2019-04-24 15:43:51.389 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectOne
+2019-04-24 15:43:51.420 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectCount
+2019-04-24 15:43:51.429 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectList
+2019-04-24 15:43:51.437 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectPage
+2019-04-24 15:43:51.461 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectMaps
+2019-04-24 15:43:51.478 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectMapsPage
+2019-04-24 15:43:51.482 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.ShopMapper.selectObjs
+2019-04-24 15:43:51.487 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\ShopMapper.xml]'
+2019-04-24 15:43:51.550 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectUserListByPage
+2019-04-24 15:43:51.557 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.getUserRoleByUsername
+2019-04-24 15:43:51.575 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteById
+2019-04-24 15:43:51.582 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteBatchIds
+2019-04-24 15:43:51.592 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.updateById
+2019-04-24 15:43:51.603 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.updateAllColumnById
+2019-04-24 15:43:51.628 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectById
+2019-04-24 15:43:51.663 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectBatchIds
+2019-04-24 15:43:51.684 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.insert
+2019-04-24 15:43:51.690 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.insertAllColumn
+2019-04-24 15:43:51.694 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.delete
+2019-04-24 15:43:51.709 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.deleteByMap
+2019-04-24 15:43:51.712 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.update
+2019-04-24 15:43:51.718 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectByMap
+2019-04-24 15:43:51.722 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectOne
+2019-04-24 15:43:51.727 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectCount
+2019-04-24 15:43:51.734 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectList
+2019-04-24 15:43:51.739 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectPage
+2019-04-24 15:43:51.779 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectMaps
+2019-04-24 15:43:51.791 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectMapsPage
+2019-04-24 15:43:51.798 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.naswork.erp.mapper.UserMapper.selectObjs
+2019-04-24 15:43:51.802 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\nasswork\erp\target\classes\mybatis\mapper\UserMapper.xml]'
+2019-04-24 15:43:54.988 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-24 15:43:55.016 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-24 15:43:55.019 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-04-24 15:43:55.058 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Software\Git\mingw64\bin;C:\Software\Git\usr\bin;C:\Users\white\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Software\nodejs;C:\Software\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\python\python2\Tools\Scripts;C:\Program Files\python\python2;C:\Users\white\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\white\AppData\Local\Programs\Python\Python37;C:\Users\white\AppData\Local\Microsoft\WindowsApps;C:\Users\white\AppData\Roaming\npm;C:\Software\Microsoft VS Code\bin;C:\Program Files (x86)\Fiddler;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;.]
+2019-04-24 15:43:55.374 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:43:57.846 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-04-24 15:43:59.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2019-04-24 15:43:59.666 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-24 15:43:59.726 [main] INFO  com.naswork.erp.ErpApplication - Started ErpApplication in 16.404 seconds (JVM running for 67.545)
+2019-04-24 15:43:59.738 [main] INFO  com.naswork.erp.ErpApplication - start success-------port:8082
+2019-04-24 15:44:03.156 [http-nio-8082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 16:15:18.143 [Thread-4] DEBUG org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager - Connection manager is shutting down
+2019-04-24 16:15:18.272 [Thread-4] DEBUG org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager - Connection manager shut down
+2019-04-24 16:15:18.471 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
