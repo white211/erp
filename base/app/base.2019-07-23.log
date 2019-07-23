@@ -1,0 +1,42 @@
+2019-07-23 18:42:55.099 [main] INFO  com.naswork.erp.ErpApplication - Starting ErpApplication on DESKTOP-DIC4SEB with PID 5296 (C:\yinmi\erp\target\classes started by white in C:\yinmi\erp)
+2019-07-23 18:42:55.111 [main] DEBUG com.naswork.erp.ErpApplication - Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-07-23 18:42:55.121 [main] INFO  com.naswork.erp.ErpApplication - The following profiles are active: dev
+2019-07-23 18:42:57.359 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-07-23 18:42:57.372 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.naswork.erp.mapper.*]' package. Please check your configuration.
+2019-07-23 18:42:57.834 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-07-23 18:42:57.839 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Searching for mappers annotated with @Mapper
+2019-07-23 18:42:57.861 [main] DEBUG com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration - Using auto-configuration base package 'com.naswork.erp'
+2019-07-23 18:42:57.930 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\yinmi\erp\target\classes\com\naswork\erp\mapper\GoodsMapper.class]
+2019-07-23 18:42:57.933 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\yinmi\erp\target\classes\com\naswork\erp\mapper\MenuMapper.class]
+2019-07-23 18:42:57.937 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\yinmi\erp\target\classes\com\naswork\erp\mapper\RoleMapper.class]
+2019-07-23 18:42:57.939 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\yinmi\erp\target\classes\com\naswork\erp\mapper\ShopMapper.class]
+2019-07-23 18:42:57.948 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\yinmi\erp\target\classes\com\naswork\erp\mapper\UserMapper.class]
+2019-07-23 18:42:57.970 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'goodsMapper' and 'com.naswork.erp.mapper.GoodsMapper' mapperInterface
+2019-07-23 18:42:57.973 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-07-23 18:42:57.977 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'menuMapper' and 'com.naswork.erp.mapper.MenuMapper' mapperInterface
+2019-07-23 18:42:57.979 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2019-07-23 18:42:57.982 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'roleMapper' and 'com.naswork.erp.mapper.RoleMapper' mapperInterface
+2019-07-23 18:42:57.984 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2019-07-23 18:42:57.988 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'shopMapper' and 'com.naswork.erp.mapper.ShopMapper' mapperInterface
+2019-07-23 18:42:57.997 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'shopMapper'.
+2019-07-23 18:42:58.002 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.naswork.erp.mapper.UserMapper' mapperInterface
+2019-07-23 18:42:58.005 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-07-23 18:42:59.482 [main] DEBUG com.baomidou.mybatisplus.toolkit.GlobalConfigUtils - DeBug: MyBatis Plus Global configuration Initializing !
+2019-07-23 18:42:59.498 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectList
+2019-07-23 18:42:59.499 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.SelectObjs
+2019-07-23 18:42:59.501 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Insert
+2019-07-23 18:42:59.502 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Update
+2019-07-23 18:42:59.502 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Delete
+2019-07-23 18:42:59.503 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - addMappedStatement: com.baomidou.mybatisplus.mapper.SqlRunner.Count
+2019-07-23 18:42:59.505 [main] DEBUG com.baomidou.mybatisplus.MybatisConfiguration - Mybatis-plus init success.
+2019-07-23 18:42:59.852 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2019-07-23 18:42:59.856 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Goods matches criteria [is assignable to Object]
+2019-07-23 18:42:59.865 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Menu matches criteria [is assignable to Object]
+2019-07-23 18:42:59.871 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Role matches criteria [is assignable to Object]
+2019-07-23 18:42:59.875 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Shop matches criteria [is assignable to Object]
+2019-07-23 18:42:59.878 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.User matches criteria [is assignable to Object]
+2019-07-23 18:42:59.879 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.naswork.erp.entity.Vo.UserPermission matches criteria [is assignable to Object]
+2019-07-23 18:42:59.881 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.naswork.erp.entity' for aliases
+2019-07-23 18:42:59.882 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@6be9328f'
+2019-07-23 18:42:59.885 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@38a5a5ea'
+2019-07-23 18:43:00.046 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
