@@ -42,7 +42,20 @@ spring:
         maxWait: 3000
         maxIdle: 20
         minIdle: 0
-
+  jackson:
+    time-zone: GMT-8
+  thymeleaf:
+    cache: false
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    prefix: classpath:/templates/
+  mvc:
+    static-path-pattern: /static/**
+    favicon:
+      enabled: true
 mybatis-plus:
     mapper-locations: classpath:/mybatis/mapper/*.xml
     typeAliasesPackage: com.naswork.erp.entity
